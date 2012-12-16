@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{38b6a249-fd72-49c0-ab92-b745a55147bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{a06c2dc6-0252-4050-97c0-1d7e892640fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_components">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{a0bd9fbc-9303-4242-b4a4-80fc0a6d5212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="diagrams">
+      <UniqueIdentifier>{46ce6ef3-b1b0-4df9-a0b7-75527338a852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{74839f18-6a54-4e56-b8fc-efd6205eaa07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="galaxy.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="galaxy_constants.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="missile.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="moon.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="particle_engine.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="planet.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="spaceship.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="sun.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="auto_array.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="math3d.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="drawable_interface.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="collidable_interface.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="movable_interface.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="object3d.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_macro.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="string_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="test_vector3.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="missile_moon.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="test_math3d.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="torpedo.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="oracle.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="torus.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="shootable_interface.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle_loader.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="special_model.h">
+      <Filter>game_components</Filter>
+    </ClInclude>
+    <ClInclude Include="explodable_interface.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="circlealpha.bmp">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="circle.bmp">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="suntexture.bmp">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="UML.cd">
+      <Filter>diagrams</Filter>
+    </None>
+    <None Include="galaxy.bmp">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="water.bmp">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

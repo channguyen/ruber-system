@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="sun" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABABAEACAAAFAAAAAIAAAAAAACAAAACAAAAAABEAAA=</HashCode>
+      <FileName>sun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="light" Collapsed="true">
+    <Position X="10.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAggCgAEIDQEgQIAABKAMAIBCAIhggAAAoQAAQBAAAI=</HashCode>
+      <FileName>light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Ax&gt;" Collapsed="true">
+    <Position X="2.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IUgEEIEqCLBMQEBAAKMIAgISAAUESAIAxQEwgwAEQgI=</HashCode>
+      <FileName>c:\program files (x86)\microsoft visual studio 10.0\vc\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="particle_engine" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAkggAAAAAAIAQoAAAAAgAChAAAAAAAAAABEAAE=</HashCode>
+      <FileName>particle_engine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="movable_interface" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>movable_interface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="drawable_interface" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>drawable_interface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="camera" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAACAgQAAAAAgQAAAAAAAAAEFAAAAgAIAEAAAAQ=</HashCode>
+      <FileName>camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
